@@ -52,7 +52,7 @@ function SMODS.INIT.handpreview()
 			n = G.UIT.T,
 			config = {
 				text = 'Possible Hands',
-				scale = 0.3,
+				scale = 0.6,
 				colour = G.C.WHITE
 			}
 		}
@@ -93,7 +93,7 @@ function SMODS.INIT.handpreview()
 					n = G.UIT.T,
 					config = {
 						text = hand_str,
-						scale = 0.3,
+						scale = 0.6,
 						colour = G.C.WHITE
 					}
 				},
@@ -401,7 +401,7 @@ function SMODS.INIT.handpreview()
 							n = G.UIT.T,
 							config = {
 								text = "Hand Preview Settings",
-								scale = 0.6,
+								scale = 1.2,
 								colour = G.C.UI.TEXT_LIGHT
 							}
 						}
@@ -524,7 +524,7 @@ function SMODS.INIT.handpreview()
 														n = G.UIT.T,
 														config = {
 															text = 'Hand Preview Settings',
-															scale = 0.3,
+															scale = 0.6,
 															colour = G.C.UI.TEXT_LIGHT
 														}
 													}
@@ -551,7 +551,7 @@ function SMODS.INIT.handpreview()
 																		config = {
 																			text = 'Preview Count: ' ..
 																				tostring(get_setting('preview_count')),
-																			scale = 0.15,
+																			scale = 0.3,
 																			colour = G.C.UI.TEXT_LIGHT
 																		}
 																	}

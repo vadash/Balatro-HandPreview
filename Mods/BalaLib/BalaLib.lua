@@ -98,7 +98,7 @@ function SMODS.INIT.balalib()
 						n = G.UIT.T,
 						config = {
 							text = 'Position: ' .. (self.states.drag.can and 'Unlocked' or 'Locked'),
-							scale = 0.15,
+							scale = 0.3,
 							colour = G.C.UI.TEXT_DARK
 						}
 					},
@@ -134,7 +134,7 @@ function SMODS.INIT.balalib()
 								n = G.UIT.T,
 								config = {
 									text = 'Anchor: ' .. tostring(self.states.anchor),
-									scale = 0.15,
+									scale = 0.3,
 									colour = G.C.UI.TEXT_DARK
 								}
 							},
@@ -147,7 +147,7 @@ function SMODS.INIT.balalib()
 								n = G.UIT.T,
 								config = {
 									text = 'Click to cycle window anchor point',
-									scale = 0.15,
+									scale = 0.3,
 									colour = G.C.UI.TEXT_DARK
 								}
 							},
@@ -182,7 +182,7 @@ function SMODS.INIT.balalib()
 						n = G.UIT.T,
 						config = {
 							text = 'Settings',
-							scale = 0.15,
+							scale = 0.3,
 							colour = G.C.UI.TEXT_DARK
 						}
 					},
